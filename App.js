@@ -1,16 +1,17 @@
 import { View } from 'react-native'
 import React from 'react'
-import Navigation from "./assets/Navigation/Navigation"
-import HomeScreen from './assets/components/HomeScreen'
+
+HomeScreen
+
+import HomeScreen from './assets/components/HomeScreen';
+import AppNavigation from './assets/Navigation/Navigation';
+
 
 
 const App = () => {
   return (
-    <View >
-      <HomeScreen />
-      <Navigation />
+      <AppNavigation/>
       
-    </View>
   );
 }
 
